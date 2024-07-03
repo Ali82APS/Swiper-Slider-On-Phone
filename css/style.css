@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(#3f51bf, #000);
+}
+
+.main {
+  width: 350px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #fdfdfd;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.header img {
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+}
+
+.menu-icon {
+  left: 20px;
+}
+
+.bell-icon {
+  right: 20px;
+}
+
+.header p {
+  color: #007aff;
+  text-align: center;
+}
+
+.main-text {
+  width: 300px;
+  margin: 50px auto 0;
+  color: #777;
+}
+
+.main-text h2 {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  padding: 17px 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.footer-menu img {
+  width: 20px;
+  margin: 0 32px;
+  cursor: pointer;
+}
+
+/* Swiper Styles */
+
+.swiper-container {
+  margin-top: 2rem;
+  height: 380px;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  border-radius: 7px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+img {
+}
+
+.info {
+  width: 100%;
+  padding: 8px 0;
+  position: absolute;
+  bottom: 0;
+  text-align: justify;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.info h3 {
+  font-size: 15px;
+  margin-left: 7px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.info p {
+  font-size: 10px;
+  margin-left: 7px;
+  color: #fff;
+}
+
+.info a {
+  text-decoration: none;
+  color: #fff;
+  float: right;
+  margin-right: 7px;
+  padding: 2px 8px;
+  border: 1px solid #fff;
+  font-size: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-slide-active {
+    transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -moz-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    -o-transform: scale(0.99);
+    transition: all ease 0.9s;
+    -webkit-transition: all ease 0.9s;
+    -moz-transition: all ease 0.9s;
+    -ms-transition: all ease 0.9s;
+    -o-transition: all ease 0.9s;
+}
